@@ -1,6 +1,6 @@
 .main-info {
     background-color: #e9eff4;
-    background-image: url("/img/main.png");
+    background-image: url("../img/main.png");
     background-repeat: no-repeat;
     background-position: right;
     height: 600px;
@@ -15,16 +15,13 @@
     height: 450px;
 }
 .services1 {
-    background-image: url("/img/Layer 6.png");
-    background-color: cornflowerblue;
+    background-image: url("../img/Layer6.png");
 }
 .services2 {
-    background-image: url("/img/Layer 8 copy.png");
-    background-color: cornflowerblue;
+    background-image: url("../img/Layer8copy.png");
 }
 .services3 {
-    background-image: url("/img/Layer 4 copy.png");
-    background-color: cornflowerblue;
+    background-image: url("../img/Layer4copy.png");
 }
 
 .maxwidth-theme {
@@ -75,7 +72,7 @@
     height: 320px;
 }
 .advantages1{
-    background-image: url("/img/nizniysloy.png");
+    background-image: url("../img/nizniysloy.png");
 }
 .work{
     width: 100%;
@@ -83,19 +80,16 @@
     height: 265px;
 }
 .work1{
-    background-image: url("/img/work1.png");
+    background-image: url("../img/work1.png");
 }
 .work2{
-    background-image: url("/img/work2.png");
-    background-color: burlywood;
+    background-image: url("../img/work2.png");
 }
 .work3{
-    background-image: url("/img/work3.png");
-    background-color: burlywood;
+    background-image: url("../img/work3.png");
 }
 .work4{
-    background-image: url("/img/work4.png");
-    background-color: burlywood;
+    background-image: url("../img/work4.png");
 }
 .certificate{
     width: 100%;
@@ -103,8 +97,7 @@
     height: 235px;
 }
 .certificate1{
-    background-image: url("/img/Gramota.png");
-    background-color: burlywood;
+    background-image: url("../img/Gramota.png");
 }
 .titles{
     text-transform: uppercase;
