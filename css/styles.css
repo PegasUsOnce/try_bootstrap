@@ -103,3 +103,14 @@
     text-transform: uppercase;
     margin-top: 90px!important;
 }
+
+.with-underline:after {
+    content:"";
+    display: inline-block;
+    height: 2px;
+    vertical-align: bottom;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid #e8edf0;
+}
