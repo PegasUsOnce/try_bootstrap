@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/avenir-next-cyr');
+
 .main-info {
     background-color: #e9eff4;
     background-image: url("../img/main.png");
@@ -39,8 +41,8 @@
 .height100{
     height: 100%;
 }
-.ceo-text{
-    background-color: white;
+.ceo-text-container{
+    padding:20px;
 }
 .ceo-box{
     margin-top: 90px!important;
@@ -113,4 +115,21 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-top: 2px solid #e8edf0;
+}
+
+.usual-text {
+    font-family: 'Avenir Next Cyr medium', sans-serif;
+    font-size: 12pt;
+}
+.heading-1 {
+    font-size: 30pt;
+    font-family: 'Avenir Next Cyr medium', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.heading-2 {
+    font-size: 20pt;
+    font-family: 'Avenir Next Cyr medium', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
