@@ -1,0 +1,24 @@
+.maxwidth-theme {
+    max-width: 1040px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 100%;
+}
+.colored-div {
+    background-color: gray;
+}
+
+.pic{
+    height: 200px;
+    background-color: blue;
+}
+
+.big-picture {
+    background-color: pink;
+    height: 450px;
+}
+
+.about-us {
+    margin-top: auto;
+    margin-bottom: auto;
+}
