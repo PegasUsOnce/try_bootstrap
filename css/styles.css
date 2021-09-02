@@ -11,7 +11,7 @@
 .main-info p {
     display: block;
 }
-.services{
+.services1, .services2, .services3 {
     width: 100%;
     background-repeat: no-repeat;
     height: 450px;
@@ -71,18 +71,18 @@
     display: flex;
 }
 
-.services-button > a{
+.services-button > a {
     margin-right: 8px;
 }
 
-.advantages{
+.advantage{
     width: 320px;;
     background-repeat: no-repeat;
     height: 320px;
     background-color: #e8edf0;
 }
 
-.advantages > div {
+.advantage > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +91,7 @@
     transform: translateY(-80px);
 }
 
-.advantages > div > span {
+.advantage > div > span {
     text-align: center;
 }
 
@@ -136,7 +136,7 @@
     background-image: url("../img/man.png");
 }
 
-.work{
+.works > div > div {
     width: 100%;
     background-repeat: no-repeat;
     height: 265px;
@@ -157,12 +157,14 @@
     width: 100%;
     background-repeat: no-repeat;
     height: 235px;
-}
-.certificate1{
     background-image: url("../img/Gramota.png");
+    transition: 1s;
 }
+.certificate:hover{
+    transform: scale(1.2);
+}
+
 .titles{
-    text-transform: uppercase;
     margin-top: 90px!important;
 }
 
