@@ -1,0 +1,208 @@
+@import url('http://fonts.cdnfonts.com/css/avenir-next-cyr');
+
+@lightGrey: #e8edf0;
+@mainFont: 'Avenir Next Cyr medium', sans-serif;
+
+.maxwidth-theme {
+    max-width: 1200px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.main-info {
+    background-color: #e9eff4;
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+
+    .mainbox {
+        margin-top: auto !important;
+        margin-bottom: auto;
+    }
+}
+
+.services1,
+.services2,
+.services3 {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+
+    > .services-button {
+        margin-top: 30px;
+        align-items: center;
+        display: flex;
+
+        > a {
+            margin-right: 8px;
+        }
+    }
+}
+
+.services1 {
+    background-image: url("../img/Layer6.png");
+}
+
+.services2 {
+    background-image: url("../img/Layer8copy.png");
+}
+
+.services3 {
+    background-image: url("../img/Layer4copy.png");
+}
+
+.ceo-text-container {
+    padding: 20px;
+}
+
+.ceo-box {
+    margin-top: 90px !important;
+    margin-bottom: 42px !important;
+}
+
+.background-grey {
+    background-color: #f5f9fc;
+}
+
+.background-white {
+    background-color: white;
+    margin-bottom: 125px;
+}
+
+.mainbutton-margin {
+    margin-top: 75px;
+    margin-bottom: 125px;
+}
+
+.advantages {
+    width: 320px;
+    background-repeat: no-repeat;
+    height: 320px;
+    background-color: @lightGrey;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-80px);
+
+        > span {
+            text-align: center;
+        }
+    }
+}
+
+.advantages1,
+.advantages2,
+.advantages3 {
+    background-color: #5389c5;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.advantages1:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/VectorSmartObject.png");
+}
+
+.advantages2:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/hands.png");
+}
+
+.advantages3:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/man.png");
+}
+
+.work1, .work2, .work3, .work4 {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 265px;
+}
+
+.work1 {
+    background-image: url("../img/work1.png");
+}
+
+.work2 {
+    background-image: url("../img/work2.png");
+}
+
+.work3 {
+    background-image: url("../img/work3.png");
+}
+
+.work4 {
+    background-image: url("../img/work4.png");
+}
+
+.certificate {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 235px;
+    background-image: url("../img/Gramota.png");
+}
+
+.titles {
+    text-transform: uppercase;
+    margin-top: 90px !important;
+}
+
+.with-underline:after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    vertical-align: bottom;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid @lightGrey;
+}
+
+span {
+    font-family: @mainFont;
+    font-size: 12pt;
+}
+
+.heading-1 {
+    font-size: 30pt;
+    font-family: @mainFont;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.heading-2 {
+    font-size: 20pt;
+    font-family: @mainFont;
+    text-transform: uppercase;
+    font-weight: bold;
+}
