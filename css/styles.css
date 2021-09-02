@@ -70,17 +70,72 @@
     align-items: center;
     display: flex;
 }
+
 .services-button > a{
     margin-right: 8px;
 }
+
 .advantages{
-    width: 100%;
+    width: 320px;;
     background-repeat: no-repeat;
     height: 320px;
+    background-color: #e8edf0;
 }
-.advantages1{
-    background-image: url("../img/nizniysloy.png");
+
+.advantages > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-80px);
 }
+
+.advantages > div > span {
+    text-align: center;
+}
+
+.advantages1, .advantages2, .advantages3 {
+    background-color: #5389c5;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.advantages1:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/VectorSmartObject.png");
+}
+
+.advantages2:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/hands.png");
+}
+
+.advantages3:after {
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../img/man.png");
+}
+
 .work{
     width: 100%;
     background-repeat: no-repeat;
