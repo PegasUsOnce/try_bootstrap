@@ -11,8 +11,15 @@
 .main-info p {
     display: block;
 }
-.services1, .services2, .services3 {
-    width: 100%;
+
+
+.services > div {
+    width: 300px;
+    margin-right: 30px;
+}
+
+.services1,.services2,.services3 {
+    width: 300px;
     background-repeat: no-repeat;
     height: 450px;
 }
