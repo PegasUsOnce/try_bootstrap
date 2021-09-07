@@ -19,14 +19,16 @@
 }
 
 
-.services > div {
-    width: 300px;
+.services > .swiper-slide {
+    width: calc((100% - 60px) / 3 )!important;
     margin-right: 30px;
 }
 
 .services1,.services2,.services3 {
-    width: 300px;
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
     height: 450px;
 }
 .services1 {
@@ -37,6 +39,34 @@
 }
 .services3 {
     background-image: url("../img/Layer4copy.png");
+}
+
+
+.swiper__buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+.swiper > .titles {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.swiper__buttons > .swiper-button-prev,
+.swiper__buttons > .swiper-button-next {
+    position: relative;
+    height: 80px;
+    width: 40px;
+    display: block;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: 10px;
 }
 
 .maxwidth-theme {
