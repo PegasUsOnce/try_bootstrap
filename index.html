@@ -14,25 +14,34 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script type="module">
         const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: false,
-
-            // // If we need pagination
-            // pagination: {
-            //     el: '.swiper-pagination',
-            // },
-
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
 
-            // // And if we need scrollbar
-            // scrollbar: {
-            //     el: '.swiper-scrollbar',
-            // },
+            direction: 'horizontal',
+            loop: false,
+            slidesPerView: 3,
+            spaceBetween: 20,
+
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 540px
+                540: {
+                    slidesPerView: 2,
+                    spaceBetween: 40
+                },
+                1080: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
+
         });
     </script>
 </head>
@@ -85,14 +94,14 @@
                     <div class="col-md-12 titles">
                         <span class="heading-2 with-underline">Услуги</span>
                     </div>
+                    
                     <div class="swiper__buttons">
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
                     <div class="swiper-wrapper services">
                         <div class="swiper-slide">
-                            <div class="services1">
-                            </div>
+                            <img src="img/services1.png"/>
                             <div>
                                 <div class="services-button">
                                     <a class="btn btn-primary " href="#" role="button">></a>
@@ -101,8 +110,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="services2">
-                            </div>
+                            <img src="img/services2.png"/>
                             <div>
                                 <div class="services-button">
                                     <a class="btn btn-secondary " href="#" role="button">></a>
@@ -112,18 +120,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="services1">
-                            </div>
-                            <div>
-                                <div class="services-button">
-                                    <a class="btn btn-primary " href="#" role="button">></a>
-                                    <span>Проектирование</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="services3">
-                            </div>
+                            <img src="img/services3.png"/>
                             <div>
                                 <div class="services-button">
                                     <a class="btn btn-secondary " href="#" role="button">></a>
@@ -132,8 +129,16 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="services3">
+                            <img src="img/services1.png"/>
+                            <div>
+                                <div class="services-button">
+                                    <a class="btn btn-primary " href="#" role="button">></a>
+                                    <span>Проектирование</span>
+                                </div>
                             </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/services3.png"/>
                             <div>
                                 <div class="services-button">
                                     <a class="btn btn-secondary " href="#" role="button">></a>
